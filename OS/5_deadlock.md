@@ -44,11 +44,11 @@ a state where a set of processes are blocked permanently because each holds a re
 ```
 
 ## Strategies for Handling Deadlocks
-### 1. Prevention
+### 1. Deadlock Prevention
 - **Break Mutual Exclusion:** make resources sharable
 - **Break Hold and Wait:** force processes to request all required resources upfront
 - **Break No Preemption:** if a process holding Resource A requests an unavailable Resource B, the OS forcibly revokes Resource A
-### 2. Avoidance
+### 2. Deadlock Avoidance
 - **Safe State:** a state where the OS guarantees a sequential order exists for every process to finish execution without deadlocking
 - **Safe Path:** a specific order of executing processes that guarantees every process can finish without causing a deadlock
 - **Banker's Algorithm:** 
