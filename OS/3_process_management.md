@@ -6,19 +6,6 @@
 - spends most of its time waiting for data
 - **example:** browsing the web, typing in Word
 
-## The 5 Core Tasks of the Process Manager
-### 1. Creation & Termination: 
-- assigning a unique Process ID (PID) and workspace
-- clearing resources when finished
-### 2. CPU Scheduling:
-- deciding which process gets the CPU next
-### 3. Deadlock Handling:
-- preventing processes from locking each other
-### 4. Inter-Process Communication
-- allowing processes to talk to each other
-### 5. Process Synchronization
-- preventing two processes from modifying shared data at the same time
-
 ## Context Switching & Process Control Block (PCB)
 ### A. PCB
 - data structure storing process details
